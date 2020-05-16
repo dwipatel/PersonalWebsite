@@ -9,14 +9,16 @@ export default class Project extends Component {
     
     render(props) {
         return (
-            <div className="a">
-                <div className="proj-div">
+            <div className="proj-div">
+                <div className="proj-text">
                     <h3 className="proj-title">{this.props.name}</h3>
                     <p className="proj-des">{this.props.description}</p>
                 </div>
-                <button className="but">Click</button>
+                <div className="buttonDiv">
+                    <button className="button">Click</button>
+                </div>
+                
             </div>
-            
         )
     }
 }
