@@ -32,13 +32,13 @@ export default class DropDown extends Component {
     render() {
         return (
             <div>
-                <p className="nav-item" onClick={this.showMenu}> {this.props.title} </p>
+                <button className="nav-item" onClick={this.showMenu}> {this.props.title} </button>
                 {
                     this.state.showMenu ? (
                         <div className="menu">
-                            <p className="nav-item2">Skills</p>
-                            <p className="nav-item2">Extra-Curriculars</p>
-                            <p className="nav-item2">Experience</p>
+                            <button className="nav-item2">Skills</button>
+                            <button className="nav-item2">Extra-Curriculars</button>
+                            <button className="nav-item2">Experience</button>
                         </div>
                     ) : (
                         null

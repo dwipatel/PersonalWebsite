@@ -9,11 +9,11 @@ export default class NavBar extends Component {
         return (
             <div className="nav">
                 <ul>
-                    <p className="nav-item">Name</p>
-                    <p className="nav-item">Email</p>
-                    <p className="nav-item">Number</p>
+                    <p className="info">Name</p>
+                    <p className="info2">Email</p>
+                    <button className="nav-item">Projects</button>
                     <DropDown title="Achievements"/>
-                    <p className="nav-item">About</p>
+                    <button className="nav-item">About</button>
                 </ul>
             </div>
         )
