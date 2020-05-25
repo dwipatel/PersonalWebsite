@@ -32,10 +32,10 @@ export default class DropDown extends Component {
     render() {
         return (
             <div>
-                <button className="nav-item" onClick={this.showMenu}> {this.props.title} </button>
+                <button className="nav-item" onClick={this.showMenu}><span> Achievments </span></button>
                 {
                     this.state.showMenu ? (
-                        <div className="menu">
+                        <div>
                             <button className="nav-item2">Skills</button>
                             <button className="nav-item2">Extra-Curriculars</button>
                             <button className="nav-item2">Experience</button>
