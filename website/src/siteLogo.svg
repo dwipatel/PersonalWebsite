@@ -1,0 +1,20 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path filter="url(#svg_2_blur)" id="svg_2" d="m146.652498,190.304765l0,0c0,-80.357443 65.1426,-145.500018 145.500084,-145.500018l0,0c38.589002,0 75.597513,15.329423 102.884079,42.615969c27.286557,27.286546 42.615966,64.295052 42.615966,102.884049l0,0c0,80.357424 -65.14259,145.499999 -145.500045,145.499999l0,0c-80.357484,0 -145.500084,-65.142585 -145.500084,-145.499999zm145.500084,-145.500018l0,291.000017m-145.500084,-145.499999l291.000129,0" stroke-width="0" stroke="#fff" fill="#223843"/>
+  <text stroke="#000000" transform="matrix(1.1212111315262518,0,0,1.0436870328376255,-42.99582804858874,-3.469323911001453) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="165" id="svg_4" y="230.08701" x="201.043916" stroke-width="0" fill="#d89781">dp</text>
+ </g>
+</svg>
