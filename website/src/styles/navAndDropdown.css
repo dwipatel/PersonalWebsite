@@ -6,9 +6,8 @@
     padding: 0 0 0 5%;
     width: 20%;
     left: 0;
-    background-color: aqua;
     position: absolute;
-    
+    z-index: 200;   
     
 }
 
@@ -18,7 +17,7 @@
     padding: 3%;
     color: #223843;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 80%;
     margin-left: 5%;
     outline: transparent;
@@ -43,8 +42,9 @@
 
 .logo {
     width: 70%;
-    left: 0;
-    
+    display: inline-flex;
+    padding-top: 15%;
+    padding-left: 5%;
 
 }
 

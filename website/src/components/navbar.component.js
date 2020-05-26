@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import DropDown from './dropdown';
-import Logo from '../method-draw-image.svg';
+import Logo from '../siteLogo.svg';
 
 import '../styles/navAndDropdown.css';
 
@@ -13,8 +13,8 @@ export default class NavBar extends Component {
                     <img className="logo" src={Logo} alt="Site Logo" />
                     <button className="nav-item">Home</button>
                     <button className="nav-item">Projects</button>
-                    <button className="nav-item">Acheivments</button>
-                    <button className="nav-item">About</button>
+                    <button className="nav-item">Skills/Experience</button>
+                    <button className="nav-item">Contact</button>
                 
             </div>
         )
