@@ -1,0 +1,62 @@
+.front-page {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 78%;
+    background-color: crimson;
+    z-index: 150;
+   
+    
+   
+}
+
+/* .front-desc {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-bottom: 80%;
+    right: 0;
+    background-color: blue;
+    z-index: 2;
+} */
+
+.my-name {
+    
+    font-size: 2vw;
+    color: #223843;
+    font-weight: bold;
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 5%;
+    padding-top: 5%;
+    width: 100%;
+    background-color: #EFF1F3;
+}
+
+.my-program {
+    font-size: 1.5vw;
+    color: #D89781;
+    font-weight: bold;
+    position: fixed;
+    margin-top: 7.5%;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: #EFF1F3;
+
+}
+
+.front-page-pic {
+    width: 100%;
+    height: auto;    
+}
+
+.pic-div {
+    margin-top: 12%;
+    margin-left: 27%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    position: absolute;
+    z-index: -1;
+}
