@@ -1,0 +1,46 @@
+.skills-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #223843;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.language {
+    font-size: 1vw;
+    text-align: center;
+    border: black solid 1px;
+    list-style-type: none;
+    padding: 2% 5% 2% 5%;
+}
+
+.language-title {
+    color: #D89781;
+
+}
+
+.language-item {
+    color: #EFF1F3;
+    padding: 5%;
+    
+}
+
+.technology {
+    font-size: 1vw;
+    border: black solid 1px;
+    list-style-type: none;
+    text-align: center;
+    padding: 2% 5% 2% 5%;
+}
+
+.technology-title {
+    color: #D89781;
+}
+
+.technology-item {
+    color: #EFF1F3;
+    padding: 5%
+}
