@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import GitHubLogo from '../github-logo.png'
 
 import '../styles/project.css';
 
@@ -15,7 +16,7 @@ export default class Project extends Component {
                     <p className="proj-des">{this.props.description}</p>
                 </div>
                 <div className="buttonDiv">
-                    <button className="button">Click</button>
+                    <button className="button"><img width="50%" height="auto" src={GitHubLogo} alt="Go to Github"/></button>
                 </div>
                 
             </div>
