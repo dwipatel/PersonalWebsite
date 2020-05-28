@@ -3,9 +3,8 @@
     position: absolute;
     right: 0;
     width: 78%;
-    background-color: crimson;
     z-index: 150;
-   
+    
     
    
 }
@@ -23,7 +22,7 @@
 
 .my-name {
     
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: #223843;
     font-weight: bold;
     position: fixed;
@@ -32,19 +31,20 @@
     padding-top: 5%;
     width: 100%;
     background-color: #EFF1F3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .my-program {
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: #D89781;
     font-weight: bold;
     position: fixed;
-    margin-top: 7.5%;
+    margin-top: 8.5%;
     margin-left: 5%;
     padding-bottom: 1%;
     width: 100%;
     background-color: #EFF1F3;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .front-page-pic {
@@ -53,10 +53,12 @@
 }
 
 .pic-div {
-    margin-top: 12%;
-    margin-left: 27%;
-    margin-right: 7%;
-    margin-bottom: 5%;
+    
+    
     position: absolute;
-    z-index: -1;
+    right: 0;
+    width: 100%;
+    margin: 20% 10% 
+    
+   
 }

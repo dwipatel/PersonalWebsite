@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Nav from '../components/navbar.component';
 import FrontImage from '../front.jpg';
+import SkillCard from '../components/skillsCard.js';
 
 import '../styles/frontPage.css';
 
@@ -19,8 +20,11 @@ export default class FrontPage extends Component {
                         <p className="my-program">McMaster University, Electrical Engineering Level II</p>
                     </div> */}
                 </div>
+                {/* <div className="pic-div">
+                    <img className="front-page-pic" src={FrontImage} alt="Front Picture" />
+                </div> */}
                 <div className="pic-div">
-                    <img className="front-page-pic" src={FrontImage} alt="Front Picture" width="460" height="345"/>
+                    <SkillCard />
                 </div>
                 
             </div>

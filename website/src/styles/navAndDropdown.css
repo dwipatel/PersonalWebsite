@@ -7,7 +7,9 @@
     width: 20%;
     left: 0;
     position: absolute;
-    z-index: 200;   
+    z-index: 200;
+    border-width: medium;  
+    border-color: #223843; 
     
 }
 
@@ -69,7 +71,9 @@
 }
 
 .nav-item:hover {
-    background-color: #EAEAED;
+    
+    background-color: #223843;
+    color: #D89781;
 }
 
 .nav-item2:hover {
