@@ -1,6 +1,18 @@
 .header {
-    background-image: url(../front.jpg);
-    background-size: 100px 200px;
-    background-repeat: no-repeat;
-    background-color: blueviolet;
+    display: flex;
+    text-align: center;
+    padding: 0%;
+    margin: 0 0 10% 0;  
+    justify-content: center;
+    border: double #223843 10px;
+    background-color: #223843bd;
+    
+}
+
+.title {
+    font-size: 4vw;
+    font-weight: bolder;
+    margin: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #D89781;
 }
