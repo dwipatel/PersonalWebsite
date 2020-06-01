@@ -1,51 +1,34 @@
 .front-page {
-    display: flex;
     position: absolute;
-    right: 0;
-    width: 78%;
-    z-index: 150;
-    
-    
-   
+    margin: 5% 10% 5% 25%;
+    width: 65%;    
 }
 
-/* .front-desc {
-    display: flex;
-    position: absolute;
-    z-index: 5;
-    width: 100%;
-    margin-bottom: 80%;
-    right: 0;
-    background-color: blue;
-    z-index: 2;
-} */
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
 
 .my-name {
-    
     font-size: 2.5vw;
     color: #223843;
-    font-weight: bold;
-    position: fixed;
-    margin-top: 0%;
-    margin-left: 5%;
-    padding-top: 5%;
-    width: 100%;
-    background-color: #EFF1F3;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .my-program {
     font-size: 2vw;
     color: #D89781;
-    font-weight: bold;
-    position: fixed;
-    margin-top: 8.5%;
-    margin-left: 5%;
-    padding-bottom: 1%;
-    width: 100%;
-    background-color: #EFF1F3;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.skill {
+    margin-top: 5%;
+}
+
+/*
 
 .front-page-pic {
     width: 100%;
@@ -61,4 +44,4 @@
     margin: 20% 10% 
     
    
-}
+} */
