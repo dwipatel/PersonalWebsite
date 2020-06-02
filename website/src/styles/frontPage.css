@@ -25,7 +25,20 @@
 }
 
 .skill {
-    margin-top: 5%;
+    margin-top: 10%;
+}
+
+.experience {
+    margin-top: 10%;
+    text-align: left;
+}
+
+.experience-title {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #223843;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 /*
