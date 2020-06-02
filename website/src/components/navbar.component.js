@@ -13,9 +13,8 @@ export default class NavBar extends Component {
                 
                     <img className="logo" src={Logo} alt="Site Logo" />
                     <Link to="/" className="nav-item">Home</Link>
-                    <Link to="./projects" className="nav-item">Projects</Link>
-                    <button className="nav-item">Skills/Experience</button>
-                    <button className="nav-item">Contact</button>
+                    <Link to="/projects" className="nav-item">Projects</Link>
+                    <Link to="/contact" className="nav-item">Contact</Link>
                 
             </div>
         )
