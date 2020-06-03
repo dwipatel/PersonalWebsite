@@ -5,14 +5,20 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Nav from './components/navbar.component';
 import About from './components/AboutPage';
-import Projects from './components/ProjectPage';
+import Projects from './pages/ProjectPage';
+import Drop from './components/dropdown';
+import Front from './pages/FrontPage';
+import Skill from './components/skillsCard';
+import Header from './components/header';
+import Experience from './components/experience';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Projects />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

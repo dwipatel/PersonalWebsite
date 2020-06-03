@@ -34,7 +34,8 @@
     outline: transparent;
     border: transparent;
     cursor: pointer;
-    padding-top: 20%;
+    padding-top: 30px;
+    background-color: blue;
 }
 
 .button:hover {

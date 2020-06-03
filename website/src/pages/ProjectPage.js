@@ -60,8 +60,6 @@ export default class Projects extends Component {
                     Used JavaFX to create an interactive 1-4 player game."
                     link="https://github.com/dwipatel/SORRY-Board-Game"
                     />
-
-                    
                 </div>
             </div>
         )
