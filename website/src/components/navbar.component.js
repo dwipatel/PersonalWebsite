@@ -9,13 +9,13 @@ export default class NavBar extends Component {
     
     render() {
         return (
-            <div className="nav">
+            <div className="nav-container">
                 
-                    <img className="logo" src={Logo} alt="Site Logo" />
-                    <Link to="/" className="nav-item">Home</Link>
-                    <Link to="/projects" className="nav-item">Projects</Link>
-                    <Link to="/contact" className="nav-item">Contact</Link>
-                
+                <button className="nav-item">Home</button>
+                <button className="nav-item">Skills</button>
+                <button className="nav-item">Projects</button>
+                <button className="nav-item">Contact</button>
+
             </div>
         )
     }
