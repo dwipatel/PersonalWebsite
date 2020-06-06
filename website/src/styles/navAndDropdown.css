@@ -4,12 +4,23 @@
     justify-content: center;
     background-color: tomato;
     padding: 1% 0;
-
 }
 
 .nav-item {
     font-size: 1vw;
+    font-family: 'Consolas';
     margin: 0 2%;
+    
+    outline: transparent;
+    border: transparent;
+    background-color: transparent;
+    
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
 }
 
 @media only screen and (max-width: 600px) {
@@ -17,6 +28,8 @@
     .nav-item {
         width: 100%;
         margin: 0.5% 1%;
+        font-size: 3vw;
+        padding: 1%;
     }
 
   }
