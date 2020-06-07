@@ -2,15 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: tomato;
     padding: 1% 0;
+    background-color: white;
 }
 
 .nav-item {
     font-size: 1vw;
-    font-family: 'Consolas';
+    font-family: 'Tahoma';
     margin: 0 2%;
-    
     outline: transparent;
     border: transparent;
     background-color: transparent;
@@ -19,8 +18,6 @@
 
 .nav-item:hover {
     cursor: pointer;
-    border-top: black 1px solid;
-    border-bottom: black 1px solid;
 }
 
 @media only screen and (max-width: 600px) {
@@ -32,4 +29,4 @@
         padding: 1%;
     }
 
-  }
+}

@@ -14,7 +14,7 @@ import Experience from './components/experience';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
+    <Front />
   </React.StrictMode>,
   document.getElementById('root')
 );
