@@ -1,4 +1,30 @@
-.skills-card {
+.lang-container {
+    display: inline-block;
+    width: min-content;
+    font-family: 'Tahoma';
+    margin: 0;
+    padding: 0;
+
+}
+
+.lang-jot {
+    width: 2vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.lang-item {
+    font-size: 1.5vw;
+    margin: 0;
+    padding: 0;
+    padding-left: 1vw;
+    color: #1C1C1E;
+    background-color: white;
+}
+
+
+/* .skills-card {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -33,4 +59,4 @@
     color: #223843;
     padding: 2%;
     font-size: 1vw;
-}
+} */
