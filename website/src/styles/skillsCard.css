@@ -23,40 +23,16 @@
     background-color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    
+    .lang-jot {
+        width: 4vw;
+        height: auto;
+    }
+    
+    .lang-item {
+        font-size: 3.5vw;
+        color: #1C1C1E;
+    }
 
-/* .skills-card {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;    
 }
-
-.big-div {
-    text-align: center;
-    border-top: #223843 solid 3px;
-    border-bottom: #223843 solid 3px;
-    padding: 2% 5% 2% 5%;  
-    width: 100%;  
-}
-
-.skill-title{
-    font-size: 2vw;
-    font-weight: bold;
-    color: #223843;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.item-title {
-    color: #D89781;
-    font-size: 2vw;
-}
-
-.item {
-    color: #223843;
-    padding: 2%;
-    font-size: 1vw;
-} */
