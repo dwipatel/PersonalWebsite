@@ -5,7 +5,7 @@
     /* padding: 1% 0; */
 }
 
-.nav-item {
+.nav-item,.nav-item2 {
     font-size: 1.5vw;
     font-family: 'Tahoma';
     margin: 0 2%;
@@ -13,10 +13,14 @@
     outline: transparent;
     border: transparent;
     background-color: transparent;
-    
 }
 
 .nav-item:hover {
+    cursor: pointer;
+    border-top: #F1A957 solid 0.3vw;
+}
+
+.nav-item2:hover {
     cursor: pointer;
     border-top: #F1A957 solid 0.3vw;
 }
@@ -36,8 +40,18 @@
         border: transparent;
     }
 
-    .nav-container {
-        border-bottom: #1C1C1E solid 0.3vw;
+    .nav-item2 {
+        width: 100%;
+        margin: 0.5% 1%;
+        font-size: 3vw;
+        padding: 1%;
+        background-color: #EFF1F3;
+    }
+
+    .nav-item2:hover {
+        cursor: pointer;
+        color: #F1A957;
+        border: transparent;
     }
 
 }

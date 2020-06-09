@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Nav from './components/navbar.component';
 import About from './components/AboutPage';
-import Projects from './pages/ProjectPage';
+import Projects from './components/project.component';
 import Drop from './components/dropdown';
 import Front from './pages/FrontPage';
 import Skill from './components/skillsCard';

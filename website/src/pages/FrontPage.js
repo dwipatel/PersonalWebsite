@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import Nav from '../components/navbar.component';
-import FrontImage from '../front.jpg';
 import SkillCard from '../components/skillsCard';
 import SkillCard2 from '../components/skillsCard2';
-import Header from '../components/header';
-import Experience from '../components/experience';
 import Logo from '../assets/Logo.png';
+import Project from '../components/project.component';
 
 import '../styles/frontPage.css';
 
@@ -48,11 +46,52 @@ export default class FrontPage extends Component {
                             <SkillCard2 tech="Git"/>
                             <SkillCard2 tech="React_Native"/>
                         </div>
+                    </div>                    
+                </div>
+                <div className="project-card">
+                    <div>
+                        <p className="project-title">Projects</p>
+                    </div>
+                    <div className="project-list">
+                        <Project 
+                        name="Healix - DeltaHacks V1 " 
+                        year="(2020)"
+                        description="A platform for therapists and patients to communicate at the comfort of their own home."
+                        />
+                        <Project 
+                        name="ToDo List"
+                        year="(2019)" 
+                        description="Frontend web application to track user’s daily tasks consisting of basic functions such as adding and removing tasks."
+                        />
+                        <Project 
+                        name="BiLLy - RUHacks"
+                        year="(2019)"
+                        description="Developed a web app that helps track and record purchases using photos of receipts."
+                        />
+                        <Project 
+                        name="GOODNIGHT - DeltaHacks V"
+                        year="(2019)" 
+                        description="Developed an Android app that diagnoses sleep apnea by analyzing breathing patterns."
+                        />
+                        <Project 
+                        name="Prosthetic Hand"
+                        year="(2019)"
+                        description="Created a functioning 3D printed right hand using a gear train."
+                        />
+                        {/* <Project 
+                        name="Relabrador"
+                        year="(2018)"
+                        description="Invented a new retractable stylus tool to help our client suffering from multiple sclerosis."
+                        /> */}
+                        <Project 
+                        name="SORRY - Board Game"
+                        year="(2018)"
+                        description="Recreation of the board game SORRY including all game features and 1-4 players."
+                        />
                     </div>
                     
-                    
+
                 </div>
-                
             </div>
         )
     }

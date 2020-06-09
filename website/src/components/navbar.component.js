@@ -12,9 +12,9 @@ export default class NavBar extends Component {
             <div className="nav-container">
                 
                 <button className="nav-item">Home</button>
-                <button className="nav-item">Skills</button>
+                <button className="nav-item2">Skills</button>
                 <button className="nav-item">Projects</button>
-                <button className="nav-item">Contact</button>
+                <button className="nav-item2">Contact</button>
 
             </div>
         )

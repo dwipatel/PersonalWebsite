@@ -34,18 +34,22 @@
 }
 
 .skill-card {
-    /* background-color: cadetblue; */
+    background-color: white;
     font-family: 'Tahoma';
+    margin: 10vw 20vw 5vw 20vw;
+    padding: 2.5vw 2vw 0 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .skill-title {
-    margin: 5vw 42vw 0 42vw;
-    padding: 1vw 0;
-    font-size: 3vw;
+    padding: 0.5vw 0;
+    margin: 0vw 0vw 0 0vw;
+    font-size: 4vw;
     color: #1C1C1E;
     text-align: center;
-    border-top: solid 0.3vw #F1A957;
-    border-bottom: solid 0.3vw #7377B4;
+    /* text-decoration: underline double #1C1C1E; */
+    /* border-top: #1C1C1E solid 0.2vw;
+    border-bottom: #1C1C1E solid 0.2vw; */
 }
 
 .skill-list {
@@ -60,13 +64,38 @@
 }
 
 .lang-block {
-    padding: 1vw 5vw 4vw 5vw;
+    padding: 0vw 5vw 4vw 5vw;
     /* background-color: blue; */
 }
 
 .lang-title {
     color: #1C1C1E;
     margin: 2vw 0;
+    
+}
+
+.project-card {
+    /* background-color: teal; */
+    font-family: 'Tahoma';
+    margin: 10vw 0 0 0;
+    
+}
+
+.project-title {
+    /* background-color: tomato; */
+    margin: 1vw 0;
+    padding: 0.5vw 0;
+    font-size: 4vw;
+    color: #1C1C1E;
+    text-align: center;
+    /* text-decoration: underline double #1C1C1E; */
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    justify-content: center;
     
 }
 
@@ -93,12 +122,26 @@
 
     .skill-title {
         font-size: 8vw;
-        margin: 10vw 35vw 0 35vw;
-        border-top: solid 0.5vw #F1A957;
-        border-bottom: solid 0.5vw #7377B4;
+        margin: 0;
+        margin-top: 3vw;
+        text-decoration: underline double #7376B8;
+        /* text-decoration: overline double #7376B8; */
     }
 
+    .project-card {
+        margin: 15vw 0 0 0;
+    }
 
+    .project-title {
+        font-size: 8vw;
+        margin: 5vw 0;
+        text-decoration: underline double #7376B8;
+    }
 
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
   }
 
