@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-
 import '../styles/project.css';
 
 export default class ProjectNoGitHub extends Component {
@@ -10,11 +9,10 @@ export default class ProjectNoGitHub extends Component {
     
     render(props) {
         return (
-            <div className="proj-div">
-                <div className="proj-text">
-                    <h3 className="proj-title">{this.props.name}</h3>
-                    <p className="proj-des">{this.props.description}</p>
-                </div>                
+            <div className="proj-container">
+                <p className="proj-name"> {this.props.name} </p>
+                <p className="proj-year"> {this.props.year} </p>
+                <div className="proj-desc"> {this.props.description} </div>
             </div>
         )
     }

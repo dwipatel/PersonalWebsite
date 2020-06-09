@@ -1,21 +1,52 @@
 import React, { Component } from 'react'
-import DropDown from './dropdown';
-import Logo from '../siteLogo.svg';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import '../styles/navAndDropdown.css';
 
 export default class NavBar extends Component {
-    
     render() {
         return (
             <div className="nav-container">
-                
-                <button className="nav-item">Home</button>
-                <button className="nav-item2">Skills</button>
-                <button className="nav-item">Projects</button>
-                <button className="nav-item2">Contact</button>
-
+                <Link className="nav-item"
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >
+                    Home
+                </Link>
+                <Link className="nav-item2"
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >
+                    Skills
+                </Link>
+                <Link className="nav-item"
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >
+                    Projects
+                </Link>
+                <Link className="nav-item2"
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration= {500}
+                >
+                    Contact
+                </Link>
             </div>
         )
     }
