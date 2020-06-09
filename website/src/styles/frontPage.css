@@ -1,38 +1,43 @@
-.front-page {
-    
-}
-
 .front-home {
     text-align: center;
-    padding: 5%;
+    background-image: url("../assets/homeImage.jpg");
+    background-size: 100vw auto;
     background-color: #1C1C1E;
     color: white;
-}
-
-
-.my-name {
-    font-size: 2vw;
     margin: 0;
+    padding: 5vw 0;
+}
+.about-container {
+    margin: 2vw 0;
+    padding: 0;
+}
+.name-container {
     display: flex;
     justify-content: center;
 }
-
-.my-name-1 {
-    margin: 0;
-}
-
-.my-name-2 {
-    margin: 0;
-    padding-left: 0.5%;
+.my-name {
+    font-size: 3vw;
     font-weight: bold;
-    /* color: #F1A957; */
+    margin: 0;
+    padding: 0;
 }
-
+.my-name2 {
+    margin: 0;
+    padding: 0;
+    padding-left: 1vw;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #F1A957;
+}
+.my-program {
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+}
 .front-logo {
-    width: 8vw;
+    width: 9vw;
     height: auto;
 }
-
 .skill-card {
     background-color: white;
     font-family: 'Tahoma';
@@ -40,75 +45,58 @@
     padding: 2.5vw 2vw 0 2vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
 .skill-title {
     padding: 0.5vw 0;
     margin: 0vw 0vw 0 0vw;
     font-size: 4vw;
     color: #1C1C1E;
     text-align: center;
-    /* text-decoration: underline double #1C1C1E; */
-    /* border-top: #1C1C1E solid 0.2vw;
-    border-bottom: #1C1C1E solid 0.2vw; */
 }
-
 .skill-list {
     padding: 0 1.5vw;
-    /* background-color: #EFF1F3; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-size: 2vw;
     margin: 0;
-    /* background-color: tomato; */
 }
-
 .lang-block {
     padding: 0vw 5vw 4vw 5vw;
-    /* background-color: blue; */
 }
-
 .lang-title {
     color: #1C1C1E;
     margin: 2vw 0;
-    
 }
-
 .project-card {
-    /* background-color: teal; */
     font-family: 'Tahoma';
     margin: 10vw 0 0 0;
-    
 }
-
 .project-title {
-    /* background-color: tomato; */
     margin: 1vw 0;
     padding: 0.5vw 0;
     font-size: 4vw;
     color: #1C1C1E;
     text-align: center;
-    /* text-decoration: underline double #1C1C1E; */
 }
-
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: blue; */
     justify-content: center;
-    
 }
 
 @media only screen and (max-width: 600px) {
-    
-    .my-name {
-        font-size: 4vw;
+    .front-home {
+        background-size: 120vw auto;
     }
-
+    .my-name, .my-name2 {
+        font-size: 5vw;
+    }
+    .my-program {
+        font-size: 3vw;
+    }
     .front-logo {
         width: 25vw;
     }
-
     .skill-list {
         padding: 5%;
         background-color: white;
@@ -119,29 +107,23 @@
         flex-direction: column;
         font-size: 5vw;
     }
-
     .skill-title {
         font-size: 8vw;
         margin: 0;
         margin-top: 3vw;
         text-decoration: underline double #7376B8;
-        /* text-decoration: overline double #7376B8; */
     }
-
     .project-card {
         margin: 15vw 0 0 0;
     }
-
     .project-title {
         font-size: 8vw;
         margin: 5vw 0;
         text-decoration: underline double #7376B8;
     }
-
     .project-list {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-  }
-
+}

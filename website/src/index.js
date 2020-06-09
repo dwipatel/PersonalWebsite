@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Nav from './components/navbar.component';
-import About from './components/AboutPage';
-import Projects from './components/project.component';
-import Drop from './components/dropdown';
-import Front from './pages/FrontPage';
-import Skill from './components/skillsCard';
-import Header from './components/header';
-import Experience from './components/experience';
+
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Front />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
