@@ -5,6 +5,7 @@ import SkillCard2 from '../components/skillsCard2';
 import Logo from '../assets/Logo2.png';
 import Project from '../components/project.component';
 import ProjectNoGitHub from '../components/projectNoGitHub';
+import Contact from '../components/contact';
 
 import '../styles/frontPage.css';
 
@@ -95,6 +96,14 @@ export default class FrontPage extends Component {
                         link="https://github.com/dwipatel/SORRY-Board-Game"
                         description="Recreation of the board game SORRY including all game features and 1-4 players."
                         />
+                    </div>
+                </div>
+                <div className="contact-card" id="contact">
+                    <div>
+                        <p className="contact-title">Contact</p>
+                    </div>
+                    <div className="contact-container">
+                        <Contact />
                     </div>
                 </div>
             </div>
